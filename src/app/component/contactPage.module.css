@@ -1,0 +1,88 @@
+/* ContactPage.module.css */
+
+.pageContainer {
+  background: linear-gradient(to bottom right, #0F4B6E, #E1B16F);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.formContainer {
+  max-width: 600px;
+  width: 100%;
+  padding: 3rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid #4A6E71;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.title {
+  font-size: 2rem;
+  font-family: serif;
+  font-weight: bold;
+  color: #2A3D34;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.inputLabel {
+  display: block;
+  font-size: 1.125rem;
+  font-family: serif;
+  color: #2A3D34;
+  margin-bottom: 0.5rem;
+}
+
+.inputField,
+.textareaField {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border: 2px solid #4A6E71;
+  border-radius: 0.5rem;
+  color: #2A3D34;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.inputField:focus,
+.textareaField:focus {
+  border-color: #E1B16F;
+  box-shadow: 0 0 0 2px #E1B16F;
+}
+
+.submitButton {
+  background: #0F4B6E;
+  color: white;
+  padding: 0.75rem 2.5rem;
+  border-radius: 2rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /* text-align: center; */
+  margin-left: 32%;
+  margin-top: 10px;
+}
+
+.submitButton:hover {
+  background: #E1B16F;
+  transform: scale(1.05);
+}
+
+.messageText {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #2A3D34;
+  margin-top: 2.5rem;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
