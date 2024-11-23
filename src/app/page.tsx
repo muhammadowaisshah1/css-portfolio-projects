@@ -52,7 +52,7 @@ const HomePage: React.FC<HomePageProps> = ({
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
           >
-            Hi, I&apos;m <span className={styles.highlight}>{name}</span>
+            Hi&#44; I&apos;m <span className={styles.highlight}>{name}</span>
           </motion.h1>
 
           <motion.p
