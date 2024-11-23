@@ -36,7 +36,7 @@ const HomePage: React.FC<HomePageProps> = ({
           >
             <Image
               src={profileImageSrc}
-              alt={`${name}'s Profile`}
+              alt={`${name}&apos;s Profile`}
               width={300}
               height={300}
               className={styles.image}
